@@ -1,15 +1,8 @@
-// var username =  prompt("Give me your Name : ");
-// var result = "welcome " +  username ;
-
-// alert(result);
-
-
 var btntranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#txt-input");
 var outputDiv = document.querySelector("#output");
 
 var serverUrl = "https://api.funtranslations.com/translate/yoda.json";
-//"https://lessionfourapi.tanaypratap.repl.co/translate/yoda.json";
 
 function errorHandler(error){
     console.log("error occured" , error);
@@ -38,8 +31,3 @@ function clickEventHandler(){
 
 btntranslate.addEventListener("click" , clickEventHandler); 
    
-
-// 1. document.querySelectorAll("textarea");
-// 2. .btn-primary
-// 3. #input-btn
-// 4. "input[name= 'translator']"
