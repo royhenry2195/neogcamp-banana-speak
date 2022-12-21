@@ -8,7 +8,7 @@ var btntranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#txt-input");
 var outputDiv = document.querySelector("#output");
 
-var serverUrl = "https://api.funtranslations.com/translate/minion.json";
+var serverUrl = "https://api.funtranslations.com/translate/yoda.json";
 //"https://lessionfourapi.tanaypratap.repl.co/translate/yoda.json";
 
 function errorHandler(error){
